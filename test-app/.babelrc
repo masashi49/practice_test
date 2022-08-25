@@ -1,0 +1,3 @@
+{
+        "presets": ["next/babel"] //babelに対して、Next.jsのプロジェクトに対しJestでテストを行うことを伝える
+    }
