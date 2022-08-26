@@ -4,15 +4,16 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={ styles.container }>
+    <div className={ styles.container } data-testid="hello">
       Welcome
-        <h1 className={ styles.title }>
+        <h2 className={ styles.title }>
         learn react
         <br />
         Welcome to
         <br />
         <a href="https://nextjs.org">Next.js !</a>
-        </h1>
+      </h2>
+      <button>こんちわ</button>
     </div>
   )
 }
